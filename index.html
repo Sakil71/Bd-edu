@@ -21,8 +21,8 @@
 <body>
     <header class="container">
         <!-- This is Nav Section-->
-        <section>
-        <nav class="container navbar navbar-expand-lg bg-light fixed-top">
+        <section class="">
+        <nav class="navbar navbar-expand-lg bg-light">
           <div class="container-fluid">
             <a class="navbar-brand fw-bold" href="#">Bd Edu</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" aria-current="page" href="Home">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#course">Courses</a>
@@ -50,13 +50,13 @@
                 </li>
               </ul>
             </div>
-            <button class="btn btn-outline-info d-none d-md-block d-lg-block fw-bold">Resister</button>
+            <button class="btn btn-outline-info d-none d-lg-block fw-bold">Resister</button>
            </div>
         </nav>
         </section>
 
         <!-- This is Carousel Section -->
-        <section>
+        <section class="py-4">
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 
                 <div class="carousel-inner">
@@ -232,7 +232,7 @@
         <div class="card mb-3 border-0 bg-rating">
           <div class="row g-0">
             <div class="col-md-5">
-              <img src="images/working.png" class="img-fluid rounded-start" alt="...">
+              <img src="images/working.png" class="w-100 h-100 rounded-start" alt="...">
             </div>
             <div class="col-md-7 d-flex justify-content-center align-items-center">
               <div class="card-body">
@@ -273,9 +273,30 @@
             <p class="fw-light">Join us and you can be part of an institution that has an ongoing and dynamic commitment towards.</p>
           </div>
         </div>
-        <div class="col d-flex justify-content-center align-items-center ">
-          <button class="btn btn-light fw-bold px-4 button-vanilla">Resister Now</button>
-        </div>
+        <!-- Button trigger modal -->
+          <button class="btn btn-light fw-bold px-4 py-1 button-vanilla" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Resister Now
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content bg-dark">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  If you skilledfull with us, Plase resister our community
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
       </section>
 
       <!-- Successfull Students -->
@@ -413,48 +434,48 @@
             <div class="accordion-item mb-3 border border-1 rounded">
               <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  What other services are you compatible with?
+                  Difference of Flexbox and Grid difference
                 </button>
               </h2>
               <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body fw-light">You will still have access to the following features: Feed, Instagram account linking, advertising, monetization, followers, insights, tools (such as Inbox, Stories, Groups, events), blue badge, and Page management by multiple people</div>
+                <div class="accordion-body fw-light">Grid and flexbox. The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column.</div>
               </div>
             </div>
             <div class="accordion-item mb-3 border border-1 rounded">
               <h2 class="accordion-header" id="flush-headingTwo">
                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  I have a technical i need resolved, who do i email?
+                  Difference of Bootstrap and Tailwind
                 </button>
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body fw-light">If you posted content again that was unavailable when you switched back to classic Pages, this content will appear twice when you return to the new Pages experience.</div>
+                <div class="accordion-body fw-light">Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness</div>
               </div>
             </div>
             <div class="accordion-item mb-3 border border-1 rounded">
               <h2 class="accordion-header" id="flush-headingThree">
                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  What other services are you compatible with?
+                  What is the CSS box model?
                 </button>
               </h2>
               <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body fw-light">Your new Page comes with a Feed that is separate from your personal profile's Feed and is dedicated to your Page presence. Anyone with Facebook access of the new Page can access and view this Feed.</div>
+                <div class="accordion-body fw-light">In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element.</div>
               </div>
             </div>
             <div class="accordion-item mb-5 border border-1 rounded">
               <h2 class="accordion-header" id="flush-headingFour">
                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                  What other services are you compatible with?
+                  What is simentic tag?
                 </button>
               </h2>
               <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body fw-light">Information on your classic Page, such as contact info, may not transition. Your bio may need to be shortened. You can edit this information by going into your About section and editing the relevant fields</div>
+                <div class="accordion-body fw-light">The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages</div>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- Companies Section  -->
-      <section class="my-5">
+      <section class="my-5 d-none d-lg-block">
         <h2 class="text-center mb-5 fw-bold">Trusted by over 800+ companies</h2>
         <div class="row">
           <div class="col">
