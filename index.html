@@ -5,48 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bd Edu</title>
+
     <!-- Bootstrap link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-    <!-- vanila css link -->
+
+    <!-- Vanila CSS link -->
     <link rel="stylesheet" href="styles.css">
+
     <!-- Bootstrap Icon CDN link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <!-- Favicon link  -->
+    <link rel="shortcut icon" href="https://www.thelanguageoffice.com/wp-content/uploads/2016/12/cropped-favicon.png" type="image/x-icon">
 </head>
 <body>
     <header class="container">
-        <!-- This is Header Section-->
+        <!-- This is Nav Section-->
         <section>
-            <nav class="navbar navbar-expand bg-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand fw-bold fs-3" href="#">Bd Edu</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
-                    <ul class="navbar-nav">
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Courses</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Deals</a>
-                      </li>
-                      <li class="nav-item" href="#">
-                        <a class="nav-link" href="#">Success</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Resister</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <button class="btn btn-outline nav-button fw-bold px-4">Resister</button>
-                </div>
-              </nav>
+        <nav class="container navbar navbar-expand-lg bg-light fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">Bd Edu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#course">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#deals">Deals</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"href="#success">Success</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link"href="#resister">Resister</a>
+                </li>
+              </ul>
+            </div>
+            <button class="btn btn-outline-info d-none d-md-block d-lg-block fw-bold">Resister</button>
+           </div>
+        </nav>
         </section>
 
         <!-- This is Carousel Section -->
@@ -54,7 +60,7 @@
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 
                 <div class="carousel-inner">
-                  <div class="carousel-item active" data-bs-interval="10000">
+                  <div class="carousel-item active" data-bs-interval="8000">
                     <div>
                       <img src="images/cover/cover-3.jpg" class="d-block w-100 rounded" alt="...">
                     </div>
@@ -62,12 +68,12 @@
                       <div>
                         <h5 class="fs-1 fw-bold">Get Started Digital 
                             Learning</h5>
-                          <p>Some representative placeholder content for the first slide.</p>
+                          <p class="fw-light">Get started with our responsive paid courses. <br> I hope your future will change if you belonging us. Thank you</p>
                           <div><button class="btn px-4 fw-bold vanilla-css">Get Started</button></div>
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item active" data-bs-interval="10000">
+                  <div class="carousel-item active" data-bs-interval="8000">
                     <div>
                       <img src="images/cover/cover-2.jpg" class="d-block w-100 rounded" alt="...">
                     </div>
@@ -75,12 +81,12 @@
                       <div>
                         <h5 class="fs-1 fw-bold">Get Started Digital 
                             Learning</h5>
-                          <p>Some representative placeholder content for the first slide.</p>
+                          <p class="fw-light">Get started with our responsive paid courses. <br> I hope your future will change if you belonging us. Thank you</p>
                           <div><button class="btn px-4 fw-bold vanilla-css">Get Started</button></div>
                       </div>
                     </div>
                   </div>
-                  <div class="carousel-item active" data-bs-interval="10000">
+                  <div class="carousel-item active" data-bs-interval="8000">
                     <div>
                       <img src="images/cover/cover-1.png" class="d-block w-100 rounded" alt="...">
                     </div>
@@ -88,7 +94,7 @@
                       <div>
                         <h5 class="fs-1 fw-bold">Get Started Digital 
                             Learning</h5>
-                          <p>Some representative placeholder content for the first slide.</p>
+                          <p class="fw-light">Get started with our responsive paid courses. <br> I hope your future will change if you belonging us. Thank you</p>
                           <div><button class="btn px-4 fw-bold vanilla-css">Get Started</button></div>
                       </div>
                     </div>
@@ -107,26 +113,26 @@
         </section>
     </header>
     <main class="container mt-5">
-      <!-- course card -->
-      <section class="my-5">
+      <!-- Course Card -->
+      <section class="my-5" id="course">
         <div class="text-center mb-5">
           <h1 class="fs-1 fw-bold">Discover Our Popular 
             Courses</h1>
-            <p class="opacity-75">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, consequatur ab provident,<br> iste repellendus, libero quia dignissimos odio beatae vel consectetur eaque vitae quis nemo sint natus architecto impedit fugiat.</p>
+            <p class="opacity-75">Upgrade your skills. Move your career forward with our Sales <br> Mastery Program Online Course. Learn selling from a master sales training. Move your career</p>
         </div>
         <div>
-          <div class="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
+          <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 g-4">
             <div class="col">
               <div class="card">
-                <div class="d-flex">
+                <div class="d-flex flex-column flex-md-row flex-lg-row">
                   <div>
                     <img src="images/course/course-1.png" class="" alt="...">
                   </div>
                   <div class="card-body d-flex align-items-center">
                     <div>
                       <h5 class="card-title fw-bold">Fundamental Of UI/UX Design</h5>
-                      <p class="card-text opacity-75">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <h6 class="fw-bold text-info">Price : 20$</h6>
+                      <p class="card-text opacity-75">The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design.</p>
+                      <h6 class="fw-bold button-vanilla">Price : 30$</h6>
                     </div>
                   </div>
                 </div>
@@ -134,15 +140,15 @@
             </div>
             <div class="col">
               <div class="card">
-                <div class="d-flex">
+                <div class="d-flex flex-column flex-md-row flex-lg-row">
                   <div>
                     <img src="images/course/course-2.png" class="" alt="...">
                   </div>
                   <div class="card-body d-flex align-items-center">
                     <div>
                       <h5 class="card-title fw-bold">Javascript Basic to advanced</h5>
-                      <p class="card-text opacity-75">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <h6 class="fw-bold text-info">Price : 20$</h6>
+                      <p class="card-text opacity-75">JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions.</p>
+                      <h6 class="fw-bold button-vanilla">Price : 20$</h6>
                     </div>
                   </div>
                 </div>
@@ -150,21 +156,21 @@
             </div>
             <div class="col">
               <div class="card">
-                <div class="d-flex">
+                <div class="d-flex flex-column flex-md-row flex-lg-row">
                   <div>
                     <img src="images/course/course-3.png" class="" alt="...">
                   </div>
                   <div class="card-body d-flex align-items-center">
                     <div>
                       <h5 class="card-title fw-bold">Fullstack Web Development</h5>
-                      <p class="card-text opacity-75">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <h6 class="fw-bold text-info">Price : 20$</h6>
+                      <p class="card-text opacity-75">A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS.</p>
+                      <h6 class="fw-bold button-vanilla">Price : 20$</h6>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col d-none d-lg-block">
               <div class="card">
                 <div class="d-flex">
                   <div>
@@ -173,14 +179,14 @@
                   <div class="card-body d-flex align-items-center">
                     <div>
                       <h5 class="card-title fw-bold">Digital Marketing</h5>
-                      <p class="card-text opacity-75">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <h6 class="fw-bold text-info">Price : 20$</h6>
+                      <p class="card-text opacity-75">Digital marketing, also known as online marketing, refers to advertising delivered through channels to promote brands.</p>
+                      <h6 class="fw-bold button-vanilla">Price : 20$</h6>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col d-none d-lg-block">
               <div class="card">
                 <div class="d-flex">
                   <div>
@@ -189,14 +195,14 @@
                   <div class="card-body d-flex align-items-center">
                     <div>
                       <h5 class="card-title fw-bold">Photography Basic Rules</h5>
-                      <p class="card-text opacity-75">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <h6 class="fw-bold text-info">Price : 20$</h6>
+                      <p class="card-text opacity-75">Photography is the art, application, and practice of creating durable images by recording light.</p>
+                      <h6 class="fw-bold button-vanilla">Price : 20$</h6>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col d-none d-lg-block">
               <div class="card">
                 <div class="d-flex">
                   <div>
@@ -205,20 +211,24 @@
                   <div class="card-body d-flex align-items-center">
                     <div>
                       <h5 class="card-title fw-bold">Motion Graphics</h5>
-                      <p class="card-text opacity-75">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <h6 class="fw-bold text-info">Price : 20$</h6>
+                      <p class="card-text opacity-75">Motion graphics (sometimes mograph) are pieces of animation or digital footage which create the illusion of motion or rotation</p>
+                      <h6 class="fw-bold button-vanilla">Price : 20$</h6>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="d-flex justify-content-center py-5"><button class="btn fw-bold px-4 vanilla-css">See More Courses</button></div>
+          <div class="d-lg-none">
+            <div class="col d-flex justify-content-center py-5">
+              <button class="btn fw-bold px-4 vanilla-css">See More Courses</button>
+            </div>
+          </div>
         </div>
       </section>
       
-      <!-- Rating Section -->
-      <section class="my-5">
+      <!-- Explore Section -->
+      <section class="my-5" id="deals">
         <div class="card mb-3 border-0 bg-rating">
           <div class="row g-0">
             <div class="col-md-5">
@@ -226,26 +236,26 @@
             </div>
             <div class="col-md-7 d-flex justify-content-center align-items-center">
               <div class="card-body">
-                <h1 class="card-title fw-bold">Explore The elearning 
+                <h1 class="card-title fw-bold">Explore The E-learning 
                   Institute</h1>
-                <p class="card-text opacity-75">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text fw-light">The eLearning Institute has helped hundreds of CSUN faculty redesign courses for online, hybrid and technology-enhanced delivery. Our latest iteration is geared toward faculty who are relatively comfortable with the technology and want to focus on pedagogy and is designed to help faculty build one of their online courses in Canvas using the Quality Learning and Teaching framework ... <a class="fw-bold d-lg-none text-decoration-none button-vanilla" href="">See more</a></p>
                 <div class="row d-flex">
                   <div class="col">
                     <div>
-                      <h1 class="fw-bold">3.2k+</h1>
+                      <h2 class="fw-bold">20.2k+</h2>
                       <p class="opacity-75 fw-bold">Online Courses</p>
                     </div>
                   </div>
                   <div class="col">
                     <div>
-                      <h1 class="fw-bold">600+</h1>
+                      <h2 class="fw-bold">600+</h2>
                       <p class="opacity-75 fw-bold">Expert member</p>
                     </div>
                   </div>
                   <div class="col">
                     <div>
-                      <h1 class="fw-bold">1k+</h1>
-                      <p class="opacity-75 fw-bold">Rating & Review</p>
+                      <h2 class="fw-bold">50k+</h2>
+                      <p class="opacity-75 fw-bold">Rating & Reviews</p>
                     </div>
                   </div>
                 </div>
@@ -256,11 +266,11 @@
         </div>
       </section>
       <!-- Join Section -->
-      <section class="d-flex p-5 rounded my-5 vanilla-css">
+      <section class="d-flex flex-column flex-md-column flex-lg-row p-5 rounded my-5 vanilla-css text-center text-md-center text-lg-start" id="resister">
         <div class="col d-flex justify-content-center align-items-center">
-          <div>
+          <div class="">
             <h1>Ready to join?</h1>
-            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <p class="fw-light">Join us and you can be part of an institution that has an ongoing and dynamic commitment towards.</p>
           </div>
         </div>
         <div class="col d-flex justify-content-center align-items-center ">
@@ -269,13 +279,14 @@
       </section>
 
       <!-- Successfull Students -->
-      <section class="my-5">
-        <div class="my-5 w-50">
+      <section class="my-5 text-center text-md-start text-lg-start" id="success">
+        <div class="my-5">
           <h1 class="fw-bold">Meet Our Successfull 
             Students</h1>
-            <p class="opacity-75">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+            <p class="opacity-75">
+              Make your studies a priority. Successful students know how <br> to succeed so you can resistration our institute and meet the successful students.</p>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
           <div class="col">
             <div class="card h-100">
               <img src="images/student/student-1.png" class="card-img-top" alt="...">
@@ -303,7 +314,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col d-none d-md-block d-lg-block">
             <div class="card h-100">
               <img src="images/student/student-4.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -313,8 +324,10 @@
             </div>
           </div>
         </div>
-        <div class="d-flex justify-content-center my-5">
-          <button class="btn vanilla-css px-4 fw-bold">View All</button>
+        <div class="d-block d-md-none d-lg-block">
+          <div class="d-flex justify-content-center my-5">
+            <button class="btn vanilla-css px-4 fw-bold">View All</button>
+          </div>
         </div>
       </section>
 
@@ -322,9 +335,9 @@
       <section>
         <div class="text-center my-5">
           <h1 class="fw-bold">Some Students Feedback</h1>
-          <p class="opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis optio <br> voluptatibus quasi fugit deleniti eos a id natus accusantium! Quod omnis consequatur iusto.</p>
+          <p class="opacity-75">It can also help people to see that their efforts are <br> paying off and that they can continue to grow and improve with continued effort.</p>
         </div>
-        <div class="row d-flex gx-4">
+        <div class="row d-flex flex-column flex-md-column flex-lg-row gx-4">
           <div class="col h-50">
             <div class="p-5 border border-1 rounded mb-5">
               <div class="d-flex justify-content-between pb-3">
@@ -340,7 +353,7 @@
                 </div>
             </div>
               <div>
-                <p class="opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas qui animi error! Qui iure officia doloremque, eius officiis exercitationem, ea perferendis eaque quo modi necessitatibus saepe eligendi, impedit nihil.</p>
+                <p class="opacity-75">I had a great time doing this course and everyone involved in the ICI has made it a great experience. I look forward to doing more courses with you guys in the future and have been recommending you to everyone I know.</p>
               </div>
               <div class="d-flex align-items-center">
                 <div class="pe-4">
@@ -368,7 +381,7 @@
                 </div>
             </div>
               <div>
-                <p class="opacity-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptas qui animi error! Qui iure officia doloremque, eius officiis exercitationem, ea perferendis eaque quo modi necessitatibus saepe eligendi, impedit nihil</p>
+                <p class="opacity-75">I just wanted to say, that I was provided with excellent support and information by Paul Tiongson. He was really helpful and efficient, and I was always informed on the good things, bad things I had done in my work, and the...</p>
               </div>
               <div class="d-flex align-items-center">
                 <div class="pe-4">
@@ -382,15 +395,21 @@
             </div>
           </div>
         </div>
+        <div class="d-block d-md-block d-lg-none">
+          <div class="d-flex justify-content-center">
+            <button class="btn vanilla-css px-4 fw-bold">View All</button>
+          </div>
+        </div>
       </section>
+
       <!-- Accordion Section  -->
-      <section class="my-5">
+      <section class="my-5" id="about">
         <div class="text-center my-5">
           <h1 class="fw-bold">Frequently Asked Questions</h1>
-          <p class="opacity-75">Lorem, ipsum dolor sit amet consectetur <br> adipisicing elit.Officiis recusandae corporis dolor pariatur nisi ducimus!</p>
+          <p class="fw-light">Compiling a list of frequently asked questions that a <br> ideal customers want answered. You can click anyone & raed this answer.</p>
         </div>
         <div class="d-flex justify-content-center">
-          <div class="accordion accordion-flush w-50" id="accordionFlushExample">
+          <div class="accordion accordion-flush w-75" id="accordionFlushExample">
             <div class="accordion-item mb-3 border border-1 rounded">
               <h2 class="accordion-header" id="flush-headingOne">
                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
@@ -398,8 +417,7 @@
                 </button>
               </h2>
               <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body opacity-75">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything 
-                embarrassing hidden in the middle of text. All the generators on the</div>
+                <div class="accordion-body fw-light">You will still have access to the following features: Feed, Instagram account linking, advertising, monetization, followers, insights, tools (such as Inbox, Stories, Groups, events), blue badge, and Page management by multiple people</div>
               </div>
             </div>
             <div class="accordion-item mb-3 border border-1 rounded">
@@ -409,8 +427,7 @@
                 </button>
               </h2>
               <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body opacity-75">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything 
-                embarrassing hidden in the middle of text. All the generators on the</div>
+                <div class="accordion-body fw-light">If you posted content again that was unavailable when you switched back to classic Pages, this content will appear twice when you return to the new Pages experience.</div>
               </div>
             </div>
             <div class="accordion-item mb-3 border border-1 rounded">
@@ -420,8 +437,7 @@
                 </button>
               </h2>
               <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body opacity-75">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything 
-                embarrassing hidden in the middle of text. All the generators on the</div>
+                <div class="accordion-body fw-light">Your new Page comes with a Feed that is separate from your personal profile's Feed and is dedicated to your Page presence. Anyone with Facebook access of the new Page can access and view this Feed.</div>
               </div>
             </div>
             <div class="accordion-item mb-5 border border-1 rounded">
@@ -431,8 +447,7 @@
                 </button>
               </h2>
               <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body opacity-75">There are many variations of passages of available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything 
-                embarrassing hidden in the middle of text. All the generators on the</div>
+                <div class="accordion-body fw-light">Information on your classic Page, such as contact info, may not transition. Your bio may need to be shortened. You can edit this information by going into your About section and editing the relevant fields</div>
               </div>
             </div>
           </div>
@@ -471,10 +486,10 @@
           Chairman, Shakil Ahamed <br> Banglamotor, Dhaka, Bangladesh <br>
           Privacy Ploicy | Terms of use
           <div class="mt-4">
-            <i href="https://www.facebook.com/sakil2171" class="bi bi-facebook fs-3 me-5"></i>
-            <i class="bi bi-twitter fs-3 me-5"></i>
-            <i class="bi bi-linkedin fs-3 me-5"></i>
-            <i class="bi bi-tiktok fs-3"></i>
+            <a target="_blank" href="https://www.facebook.com/sakil2171"><i class="bi bi-facebook text-light fs-4 me-4"></i></a>
+            <a href="https://twitter.com/home"><i class="bi bi-twitter text-light fs-4 me-4"></i></a>
+            <a href="https://www.linkedin.com/in/sakil-ahmed-097164177/"><i class="bi bi-linkedin text-light fs-4 me-4"></i></a>
+            <a href="https://www.tiktok.com/@shakilahamed67?lang=en"><i class="bi bi-tiktok text-light fs-4"></i></a>
           </div>
         </div>
     </footer>
